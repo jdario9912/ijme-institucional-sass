@@ -1,0 +1,10 @@
+@mixin crear-flex($justify: "") {
+  display: flex;
+  align-items: center;
+
+  @if $justify != "" {
+    justify-content: $justify;
+  } @else {
+    justify-content: unset;
+  }
+}

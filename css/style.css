@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  accent-color: #f6e60a;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: unset;
+  padding: 2rem;
+}
+.header nav {
+  margin-left: 3rem;
+}
+.header_links {
+  display: flex;
+  align-items: center;
+  justify-content: unset;
+  gap: 1rem;
+}
+.header_radio {
+  margin-left: auto;
+}
+.header_radio input[type=checkbox] {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

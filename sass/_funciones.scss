@@ -1,0 +1,10 @@
+@use "sass:math";
+@use "variables";
+
+@function distancia-logo-nav($distancia){
+  $valor1 : math.div(variables.$header-padding, 2);
+
+  $distancia-final : $valor1 + $distancia;
+
+  @return $distancia-final;
+}
