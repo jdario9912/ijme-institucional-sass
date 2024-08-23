@@ -1,0 +1,25 @@
+@use "variables";
+@use "mixins";
+@use "funciones";
+
+.header {
+  @include mixins.crear-flex;
+  padding: variables.$header-padding;
+
+  & nav {
+    margin-left: funciones.distancia-logo-nav(2);
+  }
+
+  &_links {
+    @include mixins.crear-flex;
+    gap: 1rem;
+  }
+
+  &_radio {
+    margin-left: auto;
+  }
+
+  &_radio input[type="checkbox"] {
+    display: none;
+  }
+}

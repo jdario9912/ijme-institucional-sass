@@ -38,4 +38,13 @@ body {
   display: none;
 }
 
+.hero {
+  height: 100vh;
+  background: radial-gradient(ellipse at left 50%, rgba(2, 2, 2, 0.8509803922), #010201), url("../img/hero.webp");
+}
+.hero_textos {
+  width: 80%;
+  margin-left: auto;
+}
+
 /*# sourceMappingURL=style.css.map */

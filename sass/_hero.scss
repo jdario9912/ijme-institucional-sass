@@ -1,0 +1,11 @@
+.hero {
+  height: 100vh;
+  background: radial-gradient(ellipse at left 50%,#020202d9, #010201), url("../img/hero.webp");
+
+  &_textos {
+    width: 80%;
+    margin-left: auto;
+  }
+}
+
+
